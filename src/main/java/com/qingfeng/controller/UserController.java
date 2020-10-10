@@ -10,5 +10,10 @@ public class UserController {
 public String hello() {
 	return "Hello";
 }
+
+@RequestMapping("/get")
+public String get() {
+	return "Hello";
+}
 	
 }
